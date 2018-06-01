@@ -51,10 +51,10 @@ function Game() {
 
 
         this.gameOver();
-        this.showFurry();
+
 
         this.checkCoinCollision();
-
+        this.showFurry();
     }
     this.hideVisibleFurry = function () {
         var furryDiv = document.querySelector('div.furry');
